@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ensure system packages are updated
-sudo apt update && sudo apt upgrade -y
+# sudo apt update && sudo apt upgrade -y
 
 # Install extra system dependencies if needed
 sudo apt install -y build-essential curl git unzip zip
