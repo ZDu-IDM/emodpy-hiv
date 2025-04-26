@@ -3,11 +3,11 @@
 # sudo apt update && sudo apt upgrade -y
 
 # Install extra system dependencies if needed
-sudo apt install -y build-essential curl git unzip zip
+# sudo apt install -y build-essential curl git unzip zip
 
 # Install additional Python packages
-pip install --upgrade pip
-pip install numpy pandas matplotlib seaborn jupyterlab ipykernel jupytext ipywidgets
+# pip install --upgrade pip
+# pip install numpy pandas matplotlib seaborn jupyterlab ipykernel jupytext ipywidgets
 
 
 # dev install emodpy-malaria (can be replaced later by pip install emodpy-malaria from jfrog)
