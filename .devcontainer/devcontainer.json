@@ -1,14 +1,11 @@
 {
-    "name": "idmtools devcontainer",
+    "name": "emodpy-hiv devcontainer",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
       "ghcr.io/devcontainers/features/docker-in-docker:2": {
-        // "mounts": [
-        //   "source=${localWorkspaceFolder},target=/workspace,type=bind"
-        // ]
     },
       "ghcr.io/devcontainers/features/python:1": {
-        "version": "3.12",
+        "version": "3.9",
         "installJupyterlab": true
       },
      "ghcr.io/devcontainers/features/node:1": {
